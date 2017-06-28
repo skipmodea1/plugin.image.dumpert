@@ -1,2 +1,5 @@
+v1.0.1-SNAPSHOT (2017-06-28):
+- added forum thread link
+
 v1.0.0 (2017-05-27):
 - initial version
