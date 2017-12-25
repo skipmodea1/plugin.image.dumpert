@@ -1,5 +1,7 @@
-v1.0.1-SNAPSHOT (2017-06-28):
+v1.0.1-SNAPSHOT (2017-12-25):
 - added forum thread link
+- addon now works in kode python 2 and also 3 (!!) thanks to the future project
+- addon.xml contains NOT YET SUPPORTED python3 tag
 
 v1.0.0 (2017-05-27):
 - initial version
