@@ -1,3 +1,6 @@
+v1.0.2-SNAPSHOT (2018-02-18)
+- added 'images' to icon
+
 v1.0.1 (2018-01-20):
 - added forum thread link
 - addon now works in kode python 2 and should also work in python 3 (!!) once all dependencies work in python 3.
