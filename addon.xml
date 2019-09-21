@@ -2,7 +2,7 @@
 <addon
 	id="plugin.image.dumpert"
 	name="Dumpert"
-	version="1.0.2"
+	version="1.0.3"
 	provider-name="Skipmode A1">
   <requires>
     <import addon="xbmc.python"                     version="2.14.0"/>
@@ -28,5 +28,6 @@
     <website>http://dumpert.nl</website>
     <email></email>
     <source>https://github.com/skipmodea1/plugin.image.dumpert</source>
+    <broken>Marked broken for gotham. A new version will be made for Krypton</broken>
   </extension>
 </addon>
