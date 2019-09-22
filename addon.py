@@ -49,10 +49,5 @@ else:
     #
     if action == 'json':
         import dumpert_json as plugin
-    #
-    # Play file
-    #
-    if action == 'play-file':
-        import dumpert_play_file as plugin
 
 plugin.Main()
