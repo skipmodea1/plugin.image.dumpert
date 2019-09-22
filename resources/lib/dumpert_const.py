@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 ADDON = "plugin.image.dumpert"
 SETTINGS = xbmcaddon.Addon(id=ADDON)
 LANGUAGE = SETTINGS.getLocalizedString
-IMAGES_PATH = os.path.join(xbmcaddon.Addon(id=ADDON).getAddonInfo('path'), 'resources', 'images')
+IMAGES_PATH = os.path.join(xbmcaddon.Addon(id=ADDON).getAddonInfo('path'), 'resources')
 LATEST_URL = "https://api-live.dumpert.nl/mobile_api/json/foto/latest/0/"
 TOPPERS_URL = "https://api-live.dumpert.nl/mobile_api/json/foto/toppers/0/"
 SEARCH_URL = "https://api-live.dumpert.nl/mobile_api/json/search/"
