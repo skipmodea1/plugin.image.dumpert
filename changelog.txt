@@ -1,3 +1,8 @@
+v1.0.4 (2019-09-21)
+- MAJOR changes in the addon due to redesigned website
+- moved to Krypton
+- updated logos
+
 v1.0.3 (2019-09-21)
 - marked broken for gotham. A new version will be made for Krypton.
 
