@@ -158,3 +158,7 @@ msgstr ""
 msgctxt "#30610"
 msgid "Only show New image category"
 msgstr ""
+
+msgctxt "#30620"
+msgid "Refresh page"
+msgstr ""

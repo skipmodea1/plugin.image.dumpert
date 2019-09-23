@@ -162,3 +162,7 @@ msgstr "Toon NSFW filmpjes"
 msgctxt "#30610"
 msgid "Only show New image category"
 msgstr "Toon alleen Nieuw plaatje categorie"
+
+msgctxt "#30620"
+msgid "Refresh page"
+msgstr "Ververs pagina"

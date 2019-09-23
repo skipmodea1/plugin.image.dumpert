@@ -246,7 +246,7 @@ class Main(object):
 
                 is_folder = False
                 # Add refresh option to context menu
-                list_item.addContextMenuItems([('Refresh', 'Container.Refresh')])
+                list_item.addContextMenuItems([(LANGUAGE(30620), 'Container.Refresh')])
                 # Add the item
                 xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),
                                             url=file,
@@ -275,7 +275,7 @@ class Main(object):
             url = self.plugin_url + '?' + urllib.parse.urlencode(parameters)
             is_folder = True
             # Add refresh option to context menu
-            list_item.addContextMenuItems([('Refresh', 'Container.Refresh')])
+            list_item.addContextMenuItems([(LANGUAGE(30620), 'Container.Refresh')])
             # Add our item to the listing as a 3-element tuple.
             listing.append((url, list_item, is_folder))
 

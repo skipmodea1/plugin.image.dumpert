@@ -25,9 +25,13 @@
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
     <forum>https://forum.kodi.tv/showthread.php?tid=315439</forum>
-    <website>http://dumpert.nl</website>
-    <email></email>
+    <website>https://dumpert.nl</website>
     <source>https://github.com/skipmodea1/plugin.image.dumpert</source>
+    <news>v1.0.4 (2019-09-21)
+    - MAJOR changes in the addon due to redesigned website
+    - moved to Krypton
+    - updated logos
+    </news>
     <assets>
       <icon>resources/icon.png</icon>
       <fanart>resources/fanart.jpg</fanart>
