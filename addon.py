@@ -7,17 +7,11 @@
 from future import standard_library
 standard_library.install_aliases()
 from builtins import str
-import os
 import sys
 import urllib.parse
 import xbmc
-import xbmcaddon
 
-LIB_DIR = xbmc.translatePath(
-    os.path.join(xbmcaddon.Addon(id="plugin.image.dumpert").getAddonInfo('path'), 'resources', 'lib'))
-sys.path.append(LIB_DIR)
-
-from dumpert_const import ADDON, DATE, VERSION, SETTINGS
+from resources.lib.dumpert_const import ADDON, DATE, VERSION, SETTINGS
 
 # Parse parameters...
 if len(sys.argv[2]) == 0:
@@ -29,25 +23,25 @@ if len(sys.argv[2]) == 0:
                  xbmc.LOGDEBUG)
 
     if SETTINGS.getSetting('onlyshownewimagescategory') == 'true':
-        import dumpert_json as plugin
+        import resources.lib.dumpert_json as plugin
     else:
-        import dumpert_main as plugin
+        import resources.lib.dumpert_main as plugin
 else:
     action = urllib.parse.parse_qs(urllib.parse.urlparse(sys.argv[2]).query)['action'][0]
     #
     # Search
     #
     if action == 'search':
-        import dumpert_search as plugin
+        import resources.lib.dumpert_search as plugin
     #
     # Timemachine
     #
     elif action == 'timemachine':
-        import dumpert_timemachine as plugin
+        import resources.lib.dumpert_timemachine as plugin
     #
     # JSON
     #
     if action == 'json':
-        import dumpert_json as plugin
+        import resources.lib.dumpert_json as plugin
 
 plugin.Main()

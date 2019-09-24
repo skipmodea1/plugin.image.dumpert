@@ -11,7 +11,7 @@ from builtins import object
 import sys
 import xbmc
 
-from dumpert_const import LANGUAGE, log, convertToUnicodeString
+from resources.lib.dumpert_const import LANGUAGE, log, convertToUnicodeString
 
 
 #
@@ -50,6 +50,6 @@ class Main(object):
 
         log("sys.argv[2]", sys.argv[2])
 
-        import dumpert_json as plugin
+        import resources.lib.dumpert_json as plugin
 
         plugin.Main()
